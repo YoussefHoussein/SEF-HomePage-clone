@@ -277,3 +277,137 @@ body{
     column-gap: 20px;
     row-gap: 20px;
 }
+#programs{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 100%;
+    height: 100vh;
+    margin-left: -10px;
+    background-color: #28eea7;
+    box-sizing: border-box;
+}
+.program-line{
+    display: flex;
+    width: 100vw;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.program-line-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+.prog{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+}
+.prog-arrow{
+    color: #28eea7;
+    font-size: 24px;
+    font-weight: 900;
+}
+.prog-text{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+.prog-crilces{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.gray{
+    background-color: gray;
+}
+.fsw{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 13%;
+}
+.courses{
+    display: flex;
+    gap: 5%;
+}
+.main-course{
+    background-color: #363738;
+    color: #28eea7;
+    padding: 20px 50px;
+    font-weight: 900;
+    border-radius: 10px 10px 0 0;
+}
+.course{
+    padding: 20px 50px;
+    font-weight: 900;
+}
+.fsw-container{
+    width: 100%;
+    display: flex;
+    background-color: #363738;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding: 2% 3%;
+    box-sizing: border-box;
+}
+.fsw-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 24px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 70%;
+}
+.green-header{
+    color: #28eea7;
+    font-weight: 900;
+    font-size: 22px;
+}
+.header{
+    font-weight: 900;
+    color: white;
+    font-size: 22px;
+}
+.fsw-body{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+#present-image{
+    border-radius: 14px;
+    width: 28vw;
+}
+.nxt{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.green-copy{
+    color: #28eea7;
+    margin-left: 10px;
+    font-weight: 900;
+}
+.next-boot{
+    color: #fcfcfd;
+    text-align: left;
+    background-color: #232323;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nxt-link{
+    color: #fcfcfd;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+    padding: 15px 20px;
+    font-weight: 800;
+    background-color: #232323;
+}
