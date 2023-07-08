@@ -1,0 +1,122 @@
+body{
+    background-color: #fcfcfd;
+    font-family: Noto Sans Mono, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    margin: -10px;
+}
+.left{
+    width: 50%;
+    height: 100vh;
+    background: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4c900878f534cf0d3f17_Untitled%20design%20(11).png");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;    
+}
+.overlay-left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 238, 167, 0.93);
+}
+.right{
+    width: 50%;
+    height: 100vh;
+    background: url("https://uploads-ssl.webflow.com/63e3828f575098222357ad70/641b4d48dc5b31ff0aa4ca67_Untitled%20design%20(12).png");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.overlay-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(35, 35, 35, .85); 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 80%;
+}
+.logo{
+    align-self: flex-start;
+}
+.menu{
+    align-self: flex-end;
+}
+.top-text{
+    align-self: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    
+}
+.text-left{
+    align-items: flex-end;
+    margin-right: 5%;
+}
+.text-right{
+    align-items: flex-start;
+    margin-left: 5%;
+    color: white;
+}
+#want{
+    background-color: black;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 24px;
+}
+#hire{
+    background-color: white;
+    color: black;
+    padding: 5px 10px 5px 10px;
+    font-size: 24px;
+}
+#head-link{
+    text-decoration: none;
+    color: white;
+}
+#head-link-right{
+    text-decoration: none;
+    color: black;
+}
+#link-container-right{
+    background-color: white;
+    padding: 10px;
+}
+#link-container{
+    background-color: black;
+    padding: 10px;
+}
+#header-text{
+    text-align: right;
+}
+#header-text-right{
+    text-align: left;
+}
+#software{
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1;
+}
