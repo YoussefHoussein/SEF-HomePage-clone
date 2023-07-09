@@ -561,3 +561,69 @@ body{
 .quotation-image{
     margin-top: 5%;
 }
+.body-container-3{
+    background-color: #363738;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 50vh;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+}
+.faqs{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+.body-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+    height: 60%;
+}
+.link-3{
+    margin-top: 24px;
+    background-color: #232323;
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    margin-left: 10%;
+    padding-right: 3%;
+}
+.view-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fcfcfd;
+}
+.list-3{
+    align-self: stretch;
+    height: 100%;
+}
+.container-body-3{
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+    row-gap: 15px;
+    width: 83%;
+    height: 100%;
+    margin-left: 10%;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232323;
+    color: #fcfcfd;
+    border-radius: 14px;
+    height: 30%;
+}
+.list-items-text{
+    margin-left: 3%;
+}
